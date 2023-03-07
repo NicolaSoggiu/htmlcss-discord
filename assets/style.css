@@ -143,11 +143,22 @@ footer .footer-top {
 	display: flex;
 	margin-bottom: 2rem;
 	padding-bottom: 2rem;
-	border-bottom: 3px solid white; /* TODO: check value */
+	border-bottom: 1px solid white;
+	justify-content: space-between;
 }
 
 footer .column-socials {
-	flex: 0 0 40%;
+	flex: 0 0 20%;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+}
+
+.info-title{
+	color: blue;
+}
+
+.italia{
+	margin-top: 1rem;
 }
 
 footer .column-links {
@@ -158,3 +169,19 @@ footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
 }
+
+.first{
+	color: blue;
+}
+
+li{
+	padding-top: 1rem;
+	list-style-type: none;
+}
+
+
+.social{
+	display: flex;
+	gap: 1rem;
+}
+

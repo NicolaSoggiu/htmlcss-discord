@@ -83,6 +83,7 @@ a{
 }
 
 .jumbo {
+	height: 400px;
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 	background-image: url(../img/jumbo.png);
@@ -102,6 +103,10 @@ a{
 
 .p-jumbo, .h2-jumbo {
 	color: white;
+}
+
+.h2-jumbo{
+	margin-top: 2rem;
 }
 
 h2{

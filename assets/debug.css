@@ -1,43 +1,80 @@
 .navbar .container {
-	background-color: gold;
+	background-color: #255EE9;
 }
 
 .jumbo {
-	background-color: blue;
+	background-image: url(../img/jumbo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .jumbo .content {
-	background-color: salmon;
 	min-height: 250px;
 }
 
 .section-feature .image {
-	background-color: aquamarine;
+	background-image: url(../img/item1.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 	min-height: 250px;
 }
+
+.section-feature .image-second{
+	background-image: url(../img/item2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 250px;
+}
+
+.section-feature .image-third{
+	background-image: url(../img/item3.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 250px;
+}
+
 
 .section-feature .text {
-	background-color: coral;
 	min-height: 250px;
 }
 
+p{
+	padding-top: 1rem;
+}
+
+h3{
+	margin-top: 22rem;
+}
+
+/* button{
+	margin-top: 24rem;
+} */
+
 .section-full .container {
-	background-color: green;
+	background-image: url(../img/item4-big.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
 	min-height: 500px;
 }
 
 footer .footer-column {
 	min-height: 300px;
+	color: white;
 }
 
 footer .column-socials {
-	background-color: pink;
+	/* background-color: pink; */
 }
 
 footer .column-links {
-	background-color: darkviolet;
+	/* background-color: darkviolet;
 	border: 2px dashed white;
-}
+} */
 
 footer .footer-bottom {
 	background-color: yellow;

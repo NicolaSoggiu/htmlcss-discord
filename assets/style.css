@@ -4,6 +4,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Whitney', sans-serif;
+	font-family: 'Whitney Semibold', sans-serif;
+	font-family: 'Whitney Book', sans-serif;
+	font-family: 'Whitney Light', sans-serif;
+
 }
 
 /* general styles */
@@ -17,8 +22,8 @@
 /* header */
 
 .navbar {
-	height: 4rem; /* TODO: check the value */
-	background-color: cyan; /* TODO: check the value */
+	height: 4rem;
+	background-color: #255EE9;
 }
 
 .navbar .container {
@@ -65,7 +70,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	background-color: lightslategrey;
 }
 
 .section-feature .image {
@@ -74,6 +79,15 @@ main section {
 
 .section-feature .text {
 	flex: 0 0 40%;
+}
+
+.section-feature .image-second{
+	flex: 0 0 60%;
+}
+
+.section-feature .image-third{
+	flex: 0 0 60%;
+
 }
 
 /* footer */

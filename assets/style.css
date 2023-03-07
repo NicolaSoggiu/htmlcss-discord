@@ -8,6 +8,7 @@
 	font-family: 'Whitney Semibold', sans-serif;
 	font-family: 'Whitney Book', sans-serif;
 	font-family: 'Whitney Light', sans-serif;
+	font-weight: bold;
 
 }
 
@@ -44,37 +45,42 @@
 	cursor: pointer;
 } */
 
-.nav-button{
+.nav-button {
 	padding: 2rem;
 }
 
-.button{
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.button {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 1rem;
 }
 
-.scarica{
+.scarica {
 	color: black;
 	background-color: white;
-	border-radius: 20%;
+	border-radius: 20px;
 	padding: .5rem;
 }
 
-.apri{
+.apri {
 	color: white;
 	background-color: black;
-	border-radius: 30%;
+	border-radius: 20px;
 	padding: .5rem
 }
 
-.login{
+.login {
 	background-color: white;
 	color: black;
 	height: max-content;
 	padding: .7rem;
 	margin-top: 1rem;
-	border-radius: 40%;
+	border-radius: 20px;
 }
 
 .jumbo .content {
@@ -106,7 +112,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey;
+	background-color: rgba(185, 193, 202, 0.2);
 }
 
 .section-feature .image {
@@ -118,17 +124,38 @@ main section {
 	color: black;
 }
 
-.section-feature .image-second{
+.section-feature .image-second {
 	flex: 0 0 60%;
 }
 
-.section-feature .image-third{
+.section-feature .image-third {
 	flex: 0 0 60%;
 
 }
 
 h2, p {
 	color: black;
+}
+
+.star {
+	padding-top: 20rem;
+}
+
+.adventure {
+	color: black;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.scarica-due {
+	color: white;
+	background-color: #8470FF;
+	border-radius: 20px;
+	padding: .5rem;
+	max-width: fit-content;
+	margin: auto;
+	margin-top: 1rem;
+
 }
 
 /* footer */
@@ -153,12 +180,19 @@ footer .column-socials {
 	font-size: 1.5rem;
 }
 
-.info-title{
-	color: blue;
+.info-title {
+	color: #8470FF;
 }
 
-.italia{
+.bandiera {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.italia {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 footer .column-links {
@@ -170,18 +204,23 @@ footer .footer-bottom {
 	justify-content: space-between;
 }
 
-.first{
-	color: blue;
+.first {
+	color: #8470FF;
 }
 
-li{
+li {
 	padding-top: 1rem;
 	list-style-type: none;
 }
 
 
-.social{
+.social {
 	display: flex;
 	gap: 1rem;
 }
 
+.footer-button {
+	background-color: #8470FF;
+	padding: .5rem;
+	border-radius: 20px;
+}

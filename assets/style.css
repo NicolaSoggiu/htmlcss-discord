@@ -110,6 +110,11 @@ main section {
 .section-feature.reverse .container {
 	flex-direction: row-reverse;
 }
+/* 
+.wave{
+	width: 100%;
+	color: rgba(185, 193, 202, 0.2);
+} */
 
 .bkg-gray {
 	background-color: rgba(185, 193, 202, 0.2);
@@ -125,7 +130,7 @@ main section {
 }
 
 .section-feature .image-second {
-	flex: 0 0 60%;
+	flex: 0  60%;
 }
 
 .section-feature .image-third {
@@ -163,7 +168,7 @@ h2, p {
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background-color: black; /* TODO: check value */
+	background-color: #292841;
 }
 
 footer .footer-top {
@@ -181,7 +186,7 @@ footer .column-socials {
 }
 
 .info-title {
-	color: #8470FF;
+	color: #4D7AE8;
 }
 
 .bandiera {
@@ -205,7 +210,7 @@ footer .footer-bottom {
 }
 
 .first {
-	color: #8470FF;
+	color: #4D7AE8;
 }
 
 li {

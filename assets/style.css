@@ -17,6 +17,7 @@
 	max-width: 1000px;
 	margin-inline: auto;
 	padding-inline: 1rem;
+	color: white;
 }
 
 /* header */
@@ -38,15 +39,50 @@
 	align-items: center;
 }
 
-.navbar .container > *:hover {
+/* .navbar .container > *:hover {
 	background-color: brown;
 	cursor: pointer;
+} */
+
+.nav-button{
+	padding: 2rem;
+}
+
+.button{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 1rem;
+}
+
+.scarica{
+	color: black;
+	background-color: white;
+	border-radius: 20%;
+	padding: .5rem;
+}
+
+.apri{
+	color: white;
+	background-color: black;
+	border-radius: 30%;
+	padding: .5rem
+}
+
+.login{
+	background-color: white;
+	color: black;
+	height: max-content;
+	padding: .7rem;
+	margin-top: 1rem;
+	border-radius: 40%;
 }
 
 .jumbo .content {
 	max-width: 500px;
 	margin-inline: auto;
 	padding-inline: 1rem;
+	text-align: center;
+	color: white;
 }
 
 .jumbo {
@@ -79,6 +115,7 @@ main section {
 
 .section-feature .text {
 	flex: 0 0 40%;
+	color: black;
 }
 
 .section-feature .image-second{
@@ -88,6 +125,10 @@ main section {
 .section-feature .image-third{
 	flex: 0 0 60%;
 
+}
+
+h2, p {
+	color: black;
 }
 
 /* footer */

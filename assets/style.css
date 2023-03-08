@@ -20,6 +20,8 @@
 
 /* header */
 
+/* navbar */
+
 .navbar {
 	height: 4rem;
 	background-color: #255EE9;
@@ -28,7 +30,6 @@
 .navbar .container {
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
 	height: 100%;
 }
 
@@ -37,13 +38,13 @@
 	align-items: center;
 }
 
-/* .navbar .container > *:hover {
-	background-color: brown;
-	cursor: pointer;
-} */
-
 .nav-button {
 	padding: 2rem;
+}
+
+a:hover{
+	background-color: blue;
+	cursor: pointer;
 }
 
 a{
@@ -71,7 +72,7 @@ a{
 	color: black;
 	background-color: white;
 	border-radius: 20px;
-	padding: .5rem;
+	padding: .8rem 1.2rem;
 	margin-right: 1rem;
 }
 
@@ -79,17 +80,16 @@ a{
 	color: white;
 	background-color: black;
 	border-radius: 20px;
-	padding: .5rem
+	padding: .8rem 1.2rem;
 }
 
+/* jumbo */
+
 .jumbo {
-	height: 400px;
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 	background-image: url(../img/jumbo.png);
 	background-size: cover;
-	background-repeat: no-repeat;
-	/* centrare bene l'immagine */
 }
 
 
@@ -133,11 +133,16 @@ main section {
 	flex-direction: row-reverse;
 }
 
-/* 
+
 .wave{
 	width: 100%;
-	color: rgba(185, 193, 202, 0.2);
-} */
+	opacity: 5%;
+	display: block;
+}
+
+.wave.bottom{
+	transform: rotateX(180deg);
+}
 
 .section-feature .image {
 	flex: 0 0 60%;
@@ -215,7 +220,7 @@ h3 {
 
 
 .star {
-	padding-top: 20rem;
+	padding-top: 22rem;
 }
 
 .adventure {
